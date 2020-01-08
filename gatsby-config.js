@@ -5,6 +5,13 @@
  */
 
 module.exports = {
+  siteMetaData: {
+    title: 'Great Gatsby Bootcamp!',
+    author: 'Arif Ikhsanudin'
+  },
+  foo: {
+    bar: 1234
+  },
   /* Your site config here */
   plugins: [`gatsby-plugin-sass`],
 }
