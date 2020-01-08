@@ -1,16 +1,26 @@
-import React from 'react';
-import { Link } from 'gatsby';
+import React from "react"
+import { Link } from "gatsby"
 
 export default () => {
   return (
-    <div>
-      <h1>Title on Header</h1>
+    <header>
+      <h1>Arif Ikhsanudin</h1>
       <nav>
-        <Link to="/">Index</Link><br/>
-        <Link to="/blog">Blog</Link><br/>
-        <Link to="/about">About</Link><br/>
-        <Link to="/contact">contact</Link><br/>
+        <ul>
+          <li>
+            <Link to="/">Index</Link>
+          </li>
+          <li>
+            <Link to="/blog">Blog</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/contact">contact</Link>
+          </li>
+        </ul>
       </nav>
-    </div>
+    </header>
   )
 }
