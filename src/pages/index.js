@@ -1,3 +1,12 @@
 import React from "react"
 
-export default () => <div>The Great Gatsby Bootcamp</div>
+const IndexPage = () => (
+  <div>
+    <h1>Hello</h1>
+    <h2>
+      I'm Arif Ikhsanudin, a full-stack developer living in beautiful Magelang
+    </h2>
+  </div>
+)
+
+export default IndexPage
