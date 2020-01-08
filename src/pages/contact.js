@@ -1,12 +1,10 @@
 import React from "react"
 
-import Footer from "../components/footer"
-import Header from "../components/header"
+import Layout from "../layouts/default"
 
 export default () => {
   return (
-    <div>
-      <Header />
+    <Layout>
       <h1>Contact</h1>
       <p>
         The best way to reach me is via{" "}
@@ -15,7 +13,6 @@ export default () => {
         </a>{" "}
         on github!
       </p>
-      <Footer />
-    </div>
+    </Layout>
   )
 }
