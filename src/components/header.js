@@ -7,7 +7,7 @@ export default () => {
   const data = useStaticQuery(graphql`
     query {
       site {
-        siteMetaData {
+        siteMetadata {
           title
         }
       }
@@ -18,7 +18,7 @@ export default () => {
     <header className={headerStyles.header}>
       <h1>
         <Link className={headerStyles.title} to="/">
-          {data.site.siteMetaData.title}
+          {data.site.siteMetadata.title}
         </Link>
       </h1>
       <nav>
