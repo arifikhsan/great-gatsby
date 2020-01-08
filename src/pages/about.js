@@ -6,7 +6,7 @@ export default () => {
     <div>
       <h1>About</h1>
       <p>I like to play games!</p>
-      <Link to='/contact'>Contact me</Link>
+      <Link to='/contact'>Want to work with me? Reach out.</Link>
     </div>
   )
 }
