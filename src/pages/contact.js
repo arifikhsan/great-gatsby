@@ -1,4 +1,5 @@
 import React from "react"
+import Footer from '../components/footer'
 
 export default () => {
   return (
@@ -9,6 +10,7 @@ export default () => {
         <a href="https://www.github.com/arifikhsan/" target="_blank">Arif Ikhsanudin</a> on
         github!
       </p>
+      <Footer />
     </div>
   )
 }
