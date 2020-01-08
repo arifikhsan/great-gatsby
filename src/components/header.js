@@ -46,7 +46,7 @@ export default () => {
               activeClassName={headerStyles.activeNavItem}
               to="/contact"
             >
-              contact
+              Contact
             </Link>
           </li>
         </ul>
