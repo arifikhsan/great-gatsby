@@ -6,9 +6,18 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'Great Gatsby Bootcamp!',
-    author: 'Arif Ikhsanudin'
+    title: "Great Gatsby Bootcamp!",
+    author: "Arif Ikhsanudin",
   },
   /* Your site config here */
-  plugins: [`gatsby-plugin-sass`],
+  plugins: [
+    "gatsby-plugin-sass",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: 'src',
+        path: `${__dirname}/src/`
+      }
+    },
+  ],
 }
